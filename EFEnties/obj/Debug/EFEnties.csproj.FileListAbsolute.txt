@@ -9,3 +9,4 @@ D:\DemoCode\MVCDemo_Code\EFEnties\obj\Debug\EFEnties.csproj.CoreCompileInputs.ca
 D:\DemoCode\MVCDemo_Code\EFEnties\obj\Debug\EFEnties.csproj.CopyComplete
 D:\DemoCode\MVCDemo_Code\EFEnties\obj\Debug\EFEnties.dll
 D:\DemoCode\MVCDemo_Code\EFEnties\obj\Debug\EFEnties.pdb
+D:\DemoCode\MVCDemo_Code\EFEnties\obj\Debug\EFEnties.csprojAssemblyReference.cache
