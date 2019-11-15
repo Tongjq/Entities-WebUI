@@ -16,10 +16,10 @@ namespace MVCWebUI.Controllers
             {
                 List<Student> students = new List<Student>
                 {
-                    new Student{ Id=2,Name="lisi",Age=6,Class=   new Class{ ClassId=1,Name="三年二班"} },
-                    new Student{ Id=3,Name="wangwu",Age=7,Class= new Class{ ClassId=2,Name="五年三班"} },
-                    new Student{ Id=1,Name="zhangsan",Age=2,Class=new Class{ ClassId=1,Name="小二班"} },
-                    new Student{ Id=4,Name="zhaoliu",Age=3,Class=new Class{ ClassId=2,Name="大班"} }
+                    new Student{ Id=2,Name="lisi",Age=6, StudentProfile=new StudentProfile{ CardId="22222"},  Class=new Class{ ClassId=1,Name="三年二班"} },
+                    new Student{ Id=3,Name="wangwu",Age=7,StudentProfile=new StudentProfile{ CardId="22222"},Class= new Class{ ClassId=2,Name="五年三班"} },
+                    new Student{ Id=1,Name="zhangsan",Age=2,StudentProfile=new StudentProfile{ CardId="22222"},Class=new Class{ ClassId=1,Name="小二班"} },
+                    new Student{ Id=4,Name="zhaoliu",Age=3,StudentProfile=new StudentProfile{ CardId="22222"},Class=new Class{ ClassId=2,Name="大班"} }
                     //new Student{ Id=2,Name="lisi",Age=6,ClassId=1,Class=   new Class{ Id=1,Name="三年二班"} },
                     //new Student{ Id=3,Name="wangwu",Age=7,ClassId=2,Class= new Class{ Id=2,Name="五年三班"} },
                     //new Student{ Id=1,Name="zhangsan",Age=2,ClassId=1,Class=new Class{ Id=1,Name="小二班"} },

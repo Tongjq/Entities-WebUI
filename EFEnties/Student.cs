@@ -18,12 +18,12 @@ namespace Models
         //public long Cid { get; set; }
         //[ForeignKey("Cid")]
         //public virtual Class Class { get; set; }
-        public long ClassId { get; set; }
+        public long? ClassId { get; set; }
         public virtual Class Class { get; set; }
-        public long TeacherId { get; set; }
+        public long? TeacherId { get; set; }
         public virtual ICollection<Teacher> Teachers { get; set; } = new List<Teacher>();
 
-        public long StudentProfileId { get; set; }
+        //public long? StudentProfileId { get; set; }
         public StudentProfile StudentProfile { get; set; }
 
     }

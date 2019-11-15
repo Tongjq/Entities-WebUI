@@ -5,7 +5,6 @@ D:\DemoCode\MVCDemo_Code\EFEnties\bin\Debug\EntityFramework.dll
 D:\DemoCode\MVCDemo_Code\EFEnties\bin\Debug\EntityFramework.SqlServer.dll
 D:\DemoCode\MVCDemo_Code\EFEnties\bin\Debug\EntityFramework.xml
 D:\DemoCode\MVCDemo_Code\EFEnties\bin\Debug\EntityFramework.SqlServer.xml
-D:\DemoCode\MVCDemo_Code\EFEnties\obj\Debug\EFEnties.csprojAssemblyReference.cache
 D:\DemoCode\MVCDemo_Code\EFEnties\obj\Debug\EFEnties.csproj.CoreCompileInputs.cache
 D:\DemoCode\MVCDemo_Code\EFEnties\obj\Debug\EFEnties.csproj.CopyComplete
 D:\DemoCode\MVCDemo_Code\EFEnties\obj\Debug\EFEnties.dll

@@ -8,8 +8,9 @@ namespace EFEnties.EFConfig
         public StudentProfileMapConfig()
         {
             HasKey(s => s.Id);
+            //this.Property(s => s.Id).IsOptional();//设置这个属性可以为空
             // 主键不自动增加
-            Property(s => s.Id).HasDatabaseGeneratedOption(DatabaseGeneratedOption.None);
+            //Property(s => s.Id).HasDatabaseGeneratedOption(DatabaseGeneratedOption.None);
             // 设置StudentProfile实体类的CardId在生成的数据库表的列名为身份证号码
             Property(s => s.CardId).HasColumnName("身份证号码");
             // StudentProfile实体类生成的数据库表名为T_StudentProfile
