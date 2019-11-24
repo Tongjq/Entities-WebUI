@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -32,10 +33,21 @@ namespace EFEnties
             // 禁用延迟加载
             this.Configuration.LazyLoadingEnabled = false;
 
-            modelBuilder.Configurations.Add(new StudentMapConfig());
-            modelBuilder.Configurations.Add(new ClassMapConfig());
-            modelBuilder.Configurations.Add(new TeacherMapConfig());
-            modelBuilder.Configurations.Add(new StudentProfileMapConfig());
+
+
+            //从某个程序集中加载所有继承自EntityTypeConfiguration类到配置中
+            // modelBuilder.Configurations.AddFromAssembly(Assembly.Load("程序集名称"));
+
+            //Assembly.GetExecutingAssembly()当前代码的程序集
+            modelBuilder.Configurations.AddFromAssembly
+                (Assembly.GetExecutingAssembly());
+
+
+            //加载对应的数据库映射配置文件类
+            //modelBuilder.Configurations.Add(new StudentMapConfig());
+            //modelBuilder.Configurations.Add(new ClassMapConfig());
+            //modelBuilder.Configurations.Add(new TeacherMapConfig());
+            //modelBuilder.Configurations.Add(new StudentProfileMapConfig());
 
 
 
